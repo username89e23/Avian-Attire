@@ -1,0 +1,94 @@
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #2442DB;
+    --secondary-color: #A020F0;
+}
+body{
+    font-family: Poppins;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+/* Utility classes */
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* Navigation bar */
+.Avian-attire-logo .logo{
+    width: 100px;
+    height: 100px;
+}
+.main-nav{
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hover-link{
+    color: black;
+    padding: 10px 10px;
+    transition: 0.2s ease-out;
+}
+.hover-link:hover{
+color: var(--primary-color);
+font-size: 20px;
+}
+.fa-solid.fa-cart-shopping{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.fa-solid.fa-heart{
+color: var(--primary-color);
+    font-size: 20px;
+}
+.fa-solid.fa-user{
+color: var(--primary-color);
+font-size: 20px;
+}
+.search{
+    border: 1px solid black;
+    padding: 5px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.search a{
+    font-size: 12px;
+}
+.nav-icons{
+margin-top: 10px;
+}
+.small-section{
+    align-items: center;
+}
+.info{
+    margin-top: 60px;
+    align-items: center;
+}
+.info img{
+    width: 1200px;
+    position: absolute;
+}
+.explore{
+    position: relative;
+    padding: 12px 24px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
